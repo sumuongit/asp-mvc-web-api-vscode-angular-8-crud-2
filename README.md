@@ -12,11 +12,25 @@ Following are some important notes:
 * Run the given [Database Scripts](https://github.com/sumuongit/fullstack-developer-opportunity-task/tree/master/WebAPI/WebAPI/Database_Scripts) to generate the database
 * Remove the existing edmx and create new one from the database just created
 * Web API configuration:
+
   ```
   //WebApiConfig.cs - change the url of the Angular project if the url does not match
   config.EnableCors(new EnableCorsAttribute("http://localhost:4200", headers:"*", methods:"*"));  
   ```
 * Run Web API project
+* Angular project settings:
+  //user-login.service.ts - change the url of the Web API project if the url does not match
+  ```
+  readonly rootURL = "http://localhost:36348/api/User/";
+  ```
+  //user-register.service.ts - change the url of the Web API project if the url does not match
+  ```
+  readonly rootURL = "http://localhost:36348/api";
+  ```
+  //customer.service.ts - change the url of the Web API project if the url does not match
+  ```
+  readonly rootURL = "http://localhost:36348/api";
+  ```
 * Run Angular project 
 
 ## Database Scripts
