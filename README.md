@@ -19,16 +19,13 @@ Following are some important notes:
   ```
 * Run Web API project
 * Angular project settings:
+  
+  ```
   //user-login.service.ts - change the url of the Web API project if the url does not match
-  ```
   readonly rootURL = "http://localhost:36348/api/User/";
-  ```
   //user-register.service.ts - change the url of the Web API project if the url does not match
-  ```
-  readonly rootURL = "http://localhost:36348/api";
-  ```
-  //customer.service.ts - change the url of the Web API project if the url does not match
-  ```
+  readonly rootURL = "http://localhost:36348/api";  
+  //customer.service.ts - change the url of the Web API project if the url does not match 
   readonly rootURL = "http://localhost:36348/api";
   ```
 * Run Angular project 
