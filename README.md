@@ -9,10 +9,10 @@
 Sign up, Sign in, then do some action like CRUD operation and finally Sign out.
 
 Following are some important notes:
-* Run the database scripts to generate the database
+* Run the given [Database Scripts](#database-scripts) to generate the database
 * Remove the existing edmx and create new one from the database just created
-* Run Web API solution
-* Run Angular Project 
+* Run Web API project
+* Run Angular project 
 
 ## Database Scripts
 [Database Scripts](https://github.com/sumuongit/fullstack-developer-opportunity-task/tree/master/WebAPI/WebAPI/Database_Scripts)
