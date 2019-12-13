@@ -45,7 +45,11 @@ export class CustomerComponent implements OnInit {
   insertRecord(form: NgForm) {    
     this.customerService.postCustomer(form.value).subscribe(res => {
       this.toastr.success('Inserted successfully', 'Customer Register')
-      this.resetForm(form);      
+      form.controls['CustomerId'].reset();   
+      form.controls['Address'].reset();   
+      form.controls['FullName'].reset();
+      form.controls['CustomerCode'].reset();
+      form.controls['MobileNo'].reset();   
       this.customerService.getCustomerList(Number(JSON.parse(localStorage.getItem('userid'))));
     })
   }
@@ -53,7 +57,12 @@ export class CustomerComponent implements OnInit {
   updateRecord(form: NgForm) {
     this.customerService.putCustomer(form.value).subscribe(res => {
       this.toastr.info('Updated successfully', 'Customer Register')
-      this.resetForm(form);      
+      //this.resetForm(form);   
+      form.controls['CustomerId'].reset();    
+      form.controls['Address'].reset();   
+      form.controls['FullName'].reset();
+      form.controls['CustomerCode'].reset();
+      form.controls['MobileNo'].reset();    
       this.customerService.getCustomerList(Number(JSON.parse(localStorage.getItem('userid'))));
     })
   }
