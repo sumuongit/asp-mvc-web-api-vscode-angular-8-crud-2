@@ -3,7 +3,6 @@
 * [Database Scripts](#database-scripts)
 * [Technologies](#technologies)
 * [Setup](#setup)
-* [Contributing](#contributing)
 
 ## General Info
 Sign up, Sign in, then do some action like CRUD operation and finally Sign out.
@@ -51,10 +50,3 @@ $ git clone https://github.com/sumuongit/fullstack-developer-opportunity-task.gi
 # Go into the repository
 $ cd fullstack-developer-opportunity-task
 ```
-
-## Contributing
-* Fork the repository
-* Create a topic branch
-* Implement your feature or bug fix
-* Add, commit, and push your changes
-* Submit a pull request
