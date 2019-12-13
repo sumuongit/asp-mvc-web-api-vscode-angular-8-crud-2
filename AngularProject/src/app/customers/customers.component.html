@@ -1,0 +1,32 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>    
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">        
+        <a class="navbar-brand" href="/customer">Customer Register</a>
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0"></ul>
+        <form class="form-inline my-2 my-lg-0">
+        <label>Signed in User :&nbsp;<b>{{user}}</b></label>&nbsp;&nbsp;&nbsp;
+        <a (click)="logout()" class="btn btn-outline-primary my-2 my-sm-0">Sign out</a>
+        </form>
+    </div>
+</nav>
+<br>
+<div class="row">
+    <div class="col md-5">
+        <label>
+            <h5>Customer Entry</h5>
+        </label>
+        <app-customer></app-customer>
+    </div>
+    <div class="col md-7">
+        <label>
+            <h5>Customer Record</h5>
+        </label>
+        <div>
+            <label>Click a row to populate the record in the entry form for edit, if required.</label>
+        </div>
+        <app-customer-list></app-customer-list>
+    </div>
+</div>

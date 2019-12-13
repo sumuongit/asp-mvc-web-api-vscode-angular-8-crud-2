@@ -1,0 +1,28 @@
+<form #form=ngForm (submit)="onSubmit(form)" autocomplete="off">
+    <input type="hidden" name="CustomerId" #CustomerId=ngModel [(ngModel)]="customerService.formData.CustomerId">
+    <div class="form-group">
+        <label>FULL NAME</label>
+        <input name="FullName" #FullName=ngModel [(ngModel)]="customerService.formData.FullName" class="form-control"
+            required>        
+    </div>
+    <div class="form-group">
+        <label>CUSTOMER CODE</label>
+        <input name="CustomerCode" #CustomerCode=ngModel [(ngModel)]="customerService.formData.CustomerCode"
+            class="form-control">
+    </div>
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label>MOBILE NO</label>
+            <input name="MobileNo" #MobileNo=ngModel [(ngModel)]="customerService.formData.MobileNo"
+                class="form-control">
+        </div>
+        <div class="form-group col-md-6">
+            <label>ADDRESS</label>
+            <input name="Address" #Address=ngModel [(ngModel)]="customerService.formData.Address" class="form-control">
+        </div>
+    </div>
+    <div class="form-group">
+        <button type="submit" [disabled]="form.invalid" class="btn btn-primary btn-lg btn-block">Submit</button>
+    </div>
+    <input type="hidden" name="UserId" ngModel="{{userId}}">
+</form>

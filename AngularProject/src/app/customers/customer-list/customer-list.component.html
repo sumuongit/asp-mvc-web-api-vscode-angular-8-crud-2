@@ -1,0 +1,10 @@
+<table class="table table-hover">
+    <tbody>
+        <tr *ngFor="let customer of customerService.list">
+            <td (click)="populateForm(customer)">[{{customer.CustomerCode}}]-{{customer.FullName}}</td>
+            <td (click)="populateForm(customer)">{{customer.MobileNo}}</td>
+            <td (click)="populateForm(customer)">{{customer.Address}}</td>
+            <td><button (click)="onDelete(customer.CustomerId)" class="btn btn-sm btn-outline-danger">X</button></td>
+        </tr>
+    </tbody>
+</table>
