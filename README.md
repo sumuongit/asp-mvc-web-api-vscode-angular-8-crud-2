@@ -8,7 +8,7 @@
 * [License](#license)
 
 ## General Info
-Sign up, Sign in, then do some action like CRUD operation and finally Sign out.
+Sign up and Sign in then do some action like CRUD operation and finally Sign out.
 
 Following are some important notes:
 * Run the given [Database Scripts](https://github.com/sumuongit/asp-mvc-web-api-vscode-angular-8-crud-2/tree/master/WebAPI/WebAPI/Database_Scripts) to generate the database
