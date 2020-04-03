@@ -1,3 +1,12 @@
+# Exclude the following files or folders from language statistics
+asp-mvc-web-api-vscode-angular-8-crud-2/WebAPI/WebAPI/Content/* linguist-vendored
+asp-mvc-web-api-vscode-angular-8-crud-2/WebAPI/WebAPI/Scripts/* linguist-vendored
+
+# Include the following files or folders for language renaming
+asp-mvc-web-api-vscode-angular-8-crud-2/WebAPI/WebAPI/Models/* linguist-language=CSHARP
+asp-mvc-web-api-vscode-angular-8-crud-2/WebAPI/WebAPI/Views/* linguist-language=ASP
+asp-mvc-web-api-vscode-angular-8-crud-2/WebAPI/WebAPI/Controllers/* linguist-language=CSHARP
+
 # Auto detect text files and perform LF normalization
 * text=auto
 
