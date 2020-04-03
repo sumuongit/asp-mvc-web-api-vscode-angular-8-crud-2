@@ -8,7 +8,7 @@
 * [License](#license)
 
 ## General Info
-Sign up and Sign in then do some action like CRUD operation and finally Sign out.
+A sample application depicting Sign up, Sign in, CRUD and Sign out features using ASP.NET MVC 5, Web API 2, Entity Framework (DB First Approach), SQL Server 2014, Visual Studio Code and Angular 8
 
 Following are some important notes:
 * Run the given [Database Scripts](https://github.com/sumuongit/asp-mvc-web-api-vscode-angular-8-crud-2/tree/master/WebAPI/WebAPI/Database_Scripts) to generate the database
