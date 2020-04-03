@@ -1,8 +1,11 @@
 ## Table of Contents
 * [General Info](#general-info)
+* [Features](#features)
 * [Database Scripts](#database-scripts)
 * [Technologies](#technologies)
 * [Setup](#setup)
+* [Contributing](#contributing)
+* [License](#license)
 
 ## General Info
 Sign up, Sign in, then do some action like CRUD operation and finally Sign out.
@@ -28,7 +31,12 @@ Following are some important notes:
   //customer.service.ts 
   readonly rootURL = "http://localhost:36348/api";
   ```
-* Run Angular project 
+* Run Angular project
+
+## Features
+* Sign up and Sign in
+* CRUD operation
+* Sign out
 
 ## Database Scripts
 [Database Scripts](https://github.com/sumuongit/asp-mvc-web-api-vscode-angular-8-crud-2/tree/master/WebAPI/WebAPI/Database_Scripts)
@@ -50,3 +58,13 @@ $ git clone https://github.com/sumuongit/asp-mvc-web-api-vscode-angular-8-crud-2
 # Go into the repository
 $ cd asp-mvc-web-api-vscode-angular-8-crud-2
 ```
+
+## Contributing
+* Fork the repository
+* Create a topic branch
+* Implement your feature or bug fix
+* Add, commit, and push your changes
+* Submit a pull request
+
+## License
+[MIT License](https://github.com/sumuongit/asp-mvc-web-api-vscode-angular-8-crud-2/blob/master/LICENSE)
