@@ -8,7 +8,7 @@
 Sign up, Sign in, then do some action like CRUD operation and finally Sign out.
 
 Following are some important notes:
-* Run the given [Database Scripts](https://github.com/sumuongit/fullstack-developer-opportunity-task/tree/master/WebAPI/WebAPI/Database_Scripts) to generate the database
+* Run the given [Database Scripts](https://github.com/sumuongit/asp-mvc-web-api-vscode-angular-8-crud-2/tree/master/WebAPI/WebAPI/Database_Scripts) to generate the database
 * Remove the existing edmx and create new one from the database just created
 * Web API configuration:
 
@@ -31,7 +31,7 @@ Following are some important notes:
 * Run Angular project 
 
 ## Database Scripts
-[Database Scripts](https://github.com/sumuongit/fullstack-developer-opportunity-task/tree/master/WebAPI/WebAPI/Database_Scripts)
+[Database Scripts](https://github.com/sumuongit/asp-mvc-web-api-vscode-angular-8-crud-2/tree/master/WebAPI/WebAPI/Database_Scripts)
 	
 ## Technologies
 This application is created with:
@@ -46,7 +46,7 @@ To clone and run this repository you will need [Git](https://git-scm.com/) insta
 
 ```
 # Clone this repository
-$ git clone https://github.com/sumuongit/fullstack-developer-opportunity-task.git
+$ git clone https://github.com/sumuongit/asp-mvc-web-api-vscode-angular-8-crud-2.git
 # Go into the repository
-$ cd fullstack-developer-opportunity-task
+$ cd asp-mvc-web-api-vscode-angular-8-crud-2
 ```
