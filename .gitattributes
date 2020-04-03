@@ -1,11 +1,11 @@
 # Exclude the following files or folders from language statistics
-WebAPI/WebAPI/Content/* linguist-vendored
-WebAPI/WebAPI/Scripts/* linguist-vendored
+WebAPI/Content/* linguist-vendored
+WebAPI/Scripts/* linguist-vendored
 
 # Include the following files or folders for language renaming
-WebAPI/WebAPI/Models/* linguist-language=CSHARP
-WebAPI/WebAPI/Views/* linguist-language=ASP
-WebAPI/WebAPI/Controllers/* linguist-language=CSHARP
+WebAPI/Models/* linguist-language=CSHARP
+WebAPI/Views/* linguist-language=ASP
+WebAPI/Controllers/* linguist-language=CSHARP
 
 # Auto detect text files and perform LF normalization
 * text=auto
