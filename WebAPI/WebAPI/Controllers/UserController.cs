@@ -24,8 +24,7 @@ namespace WebAPI.Controllers
         public IHttpActionResult GetUser(User user)
         {
             db.Configuration.ProxyCreationEnabled = false;
-            var obj = db.Users.Where(x => x.Username == user.Username && x.Password == user.Password).FirstOrDefault();
-            //var entityObj = ObjectContext.GetObjectType(obj.GetType());
+            var obj = db.Users.Where(x => x.Username == user.Username && x.Password == user.Password).FirstOrDefault();            
             
             if (obj == null)
             {
@@ -38,14 +37,7 @@ namespace WebAPI.Controllers
         // POST: api/User
         [ResponseType(typeof(User))]
         public IHttpActionResult PostUser(User user)
-        {
-            // Will be validated from Angular
-
-            //if (!ModelState.IsValid)
-            //{
-            //    return BadRequest(ModelState);
-            //}
-
+        {           
             db.Users.Add(user);
             db.SaveChanges();
 

@@ -40,14 +40,7 @@ namespace WebAPI.Controllers
         // PUT: api/Customer/5
         [ResponseType(typeof(void))]
         public IHttpActionResult PutCustomer(int id, Customer customer)
-        {
-            // Will be validated from Angular
-
-            //if (!ModelState.IsValid)
-            //{
-            //    return BadRequest(ModelState);
-            //}
-
+        {            
             if (id != customer.CustomerId)
             {
                 return BadRequest();
@@ -77,14 +70,7 @@ namespace WebAPI.Controllers
         // POST: api/Customer
         [ResponseType(typeof(Customer))]
         public IHttpActionResult PostCustomer(Customer customer)
-        {
-            // Will be validated from Angular
-
-            //if (!ModelState.IsValid)
-            //{
-            //    return BadRequest(ModelState);
-            //}
-
+        {         
             db.Customers.Add(customer);
             db.SaveChanges();
 
