@@ -17,6 +17,7 @@ export class CustomerListComponent implements OnInit {
   }
 
   populateForm(customer: Customer) {
+    debugger;
     this.customerService.formData = Object.assign({}, customer);
   }
 
